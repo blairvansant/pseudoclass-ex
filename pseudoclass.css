@@ -1,0 +1,13 @@
+.block {
+	display: inline;
+}
+
+.inline {
+	display: block;
+	border: 1px solid black;
+	margin: 25px;
+}
+
+ .n-child section:nth-of-type(2n) {
+	border: 1px solid black;
+}
